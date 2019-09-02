@@ -1,0 +1,22 @@
+{
+    "name": "xueqianyue/laravelxuexi",
+    "description": "yyy",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "chaihanwen",
+            "email": "xue19920819@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.4"
+	},
+	"autoload":{
+		"psr-4":{
+			"Flower\\Rose":"src/Flower/Rose",
+			"Flower\\Lily":"src/Flower/Lily"
+		}
+	}
+}
